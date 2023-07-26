@@ -53,6 +53,28 @@
           <!-- <p class="title">Compuer Science Enthusiast</p> -->
         </div>
 
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://github.com/amankumar11" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://twitter.com/aman_kumar11" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/amankumarrr/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
         <button class="info_more-btn" data-sidebar-btn>
           <span>Show Contacts</span>
 
@@ -127,27 +149,7 @@
 
         <div class="separator"></div>
 
-        <ul class="social-list">
-
-          <li class="social-item">
-            <a href="https://github.com/amankumar11" class="social-link">
-              <ion-icon name="logo-github"></ion-icon>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="https://twitter.com/aman_kumar11" class="social-link">
-              <ion-icon name="logo-twitter"></ion-icon>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="https://www.linkedin.com/in/amankumarrr/" class="social-link">
-              <ion-icon name="logo-linkedin"></ion-icon>
-            </a>
-          </li>
-
-        </ul>
+        
 
       </div>
 
@@ -180,7 +182,7 @@
           </li>
 
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link disabled>Portfolio</button>
+            <button class="navbar-link" data-nav-link>Projects</button>
           </li>
 
           <li class="navbar-item">
@@ -813,37 +815,33 @@
         - #PORTFOLIO
       -->
 
-      <article class="portfolio" data-page="portfolio">
+      <article class="portfolio" data-page="projects">
 
         <header>
-          <h2 class="h2 article-title">Portfolio</h2>
+          <h2 class="h2 article-title">Projects</h2>
         </header>
 
         <section class="projects">
 
-          <ul class="filter-list">
+          <!-- <ul class="filter-list">
 
             <li class="filter-item">
               <button class="active" data-filter-btn>All</button>
             </li>
 
             <li class="filter-item">
-              <button data-filter-btn>Web design</button>
+              <button data-filter-btn>UI/UX Design</button>
             </li>
 
             <li class="filter-item">
-              <button data-filter-btn>Applications</button>
+              <button data-filter-btn>Web Applications</button>
             </li>
 
             <li class="filter-item">
-              <button data-filter-btn>Web development</button>
+              <button data-filter-btn>Contributions</button>
             </li>
 
-            <li class="filter-item">
-              <button data-filter-btn>Open Source Contributions</button>
-            </li>
-
-          </ul>
+          </ul> -->
 
           <div class="filter-select-box">
 
@@ -864,15 +862,15 @@
               </li>
 
               <li class="select-item">
-                <button data-select-item>Web design</button>
+                <button data-select-item>UI/UX Design</button>
               </li>
 
               <li class="select-item">
-                <button data-select-item>Applications</button>
+                <button data-select-item>Web Applications</button>
               </li>
 
-              <li class="select-item">
-                <button data-select-item>Web development</button>
+              <li class="filter-item">
+                <button data-filter-btn>Contributions</button>
               </li>
 
             </ul>
@@ -881,7 +879,7 @@
 
           <ul class="project-list">
 
-            <li class="project-item  active" data-filter-item data-category="web development">
+            <li class="project-item  active" data-filter-item data-category="Web Applications">
               <a href="#">
 
                 <figure class="project-img">
@@ -889,159 +887,165 @@
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
+                  <img src="./assets/images/projects/Dashboard-judge.png" alt="E-Adaalat" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Finance</h3>
+                <h3 class="project-title">E-Adaalat</h3>
 
-                <p class="project-category">Web development</p>
+                <p class="project-category">Web Application</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="Web Development">
+              <a href="https://prepare.prepseed.com">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/projects/prepseed.png" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Prepseed Portal</h3>
+
+                <p class="project-category">Web Application</p>
 
               </a>
             </li>
 
             <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
+              <a href="https://github.com/OWASP-STUDENT-CHAPTER/Hackowasp4.0">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
+                  <img src="./assets/images/projects/hacko4.png" alt="arrival" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Orizon</h3>
+                <h3 class="project-title">Hackowasp4.0</h3>
 
-                <p class="project-category">Web development</p>
+                <p class="project-category">Web Application</p>
 
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
+            <li class="project-item  active" data-filter-item data-category="Web Applications">
+              <a href="https://github.com/amankumar11/Hyperops">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
+                  <img src="./assets/images/projects/hyperops.png" alt="Hyperops" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Fundo</h3>
+                <h3 class="project-title">Hyperops</h3>
 
-                <p class="project-category">Web design</p>
+                <p class="project-category">Web Application</p>
 
               </a>
             </li>
+
+            <li class="project-item  active" data-filter-item data-category="Contributions">
+              <a href="https://github.com/OWASP-STUDENT-CHAPTER/relay">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/projects/relay1.jpeg" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Relay Coding Portal</h3>
+
+                <p class="project-category">Web Application</p>
+
+              </a>
+            </li>
+
+            
 
             <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="#">
+              <a href="https://github.com/OWASP-STUDENT-CHAPTER/Main-Website">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
+                  <img src="./assets/images/projects/owaspmain1.png" alt="task manager" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Brawlhalla</h3>
+                <h3 class="project-title">OWASP Main Website</h3>
 
-                <p class="project-category">Applications</p>
+                <p class="project-category">Web Application</p>
 
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
+            <li class="project-item  active" data-filter-item data-category="Web Applications">
+              <a href="https://github.com/amankumar11/Diadictor">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
+                  <img src="./assets/images/projects/diadictor1.png" alt="fundo" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">DSM.</h3>
+                <h3 class="project-title">Diadictor</h3>
 
-                <p class="project-category">Web design</p>
+                <p class="project-category">Web Application</p>
 
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
+            <li class="project-item  active" data-filter-item data-category="Web Applications">
+              <a href="https://periwinkle-midnight-arithmetic.glitch.me/">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
+                  <img src="./assets/images/projects/course-predictor.png" alt="brawlhalla" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">MetaSpark</h3>
+                <h3 class="project-title">Course Selector</h3>
 
-                <p class="project-category">Web design</p>
+                <p class="project-category">Web Application</p>
 
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
+            <li class="project-item  active" data-filter-item data-category="UI/UX Design">
+              <a href="https://www.figma.com/file/4sPOZPQbircNum5hfZwZKv/chatApp?type=design&node-id=0-1&mode=design&t=VacpExRrNQTkKoZc-0">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
+                  <img src="./assets/images/projects/ChatApp.png" alt="dsm." loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Summary</h3>
+                <h3 class="project-title">ChatApp</h3>
 
-                <p class="project-category">Web development</p>
+                <p class="project-category">UI/UX Design</p>
 
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="#">
+            
 
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Task Manager</h3>
-
-                <p class="project-category">Applications</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Arrival</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
+            
 
           </ul>
 
