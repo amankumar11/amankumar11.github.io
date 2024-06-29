@@ -371,8 +371,13 @@ main {
   border-radius: 8px;
 }
 
+.paper-link{
+  color: rgba(255, 255, 255, 0.738);
+  text-decoration: underline;
+}
+
 .info-content .custom-1 {
-  background: #344397;
+  background: #4064e4;
 }
 
 .info-content .custom-2 {
