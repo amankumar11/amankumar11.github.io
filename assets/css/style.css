@@ -586,6 +586,7 @@ main {
 }
 
 .service-icon-box img {
+  border-radius: 5px;
   margin: auto;
 }
 
